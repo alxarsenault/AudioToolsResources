@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout script="tmp/DrumKit/script.py">
+	<Widget builder="Panel" name="MainWindow">
+		<position>15, 18</position>
+		<size>280, 201</size>
+		<bg_img/>
+		<info background="200, 200, 200, 255" contour="0, 0, 0, 255" round_corner_radius="0"/>
+		<flags>0</flags>
+		<Children>
+			<Widget builder="Button">
+				<position>9, 9</position>
+				<size>60, 59</size>
+				<info normal="60, 60, 60, 255" hover="65, 65, 65, 255" clicking="55, 55, 55, 255" selected="60, 60, 60, 255" contour="190, 190, 190, 255" font_color="200, 200, 200, 255" corner_radius="0"/>
+				<img_path/>
+				<label>Kick</label>
+				<flags/>
+				<msg>bing</msg>
+				<pyo>OnKick</pyo>
+				<unique_name>kick_btn</unique_name>
+			</Widget>
+			<Widget builder="Button">
+				<position>76, 9</position>
+				<size>60, 59</size>
+				<info normal="60, 60, 60, 255" hover="65, 65, 65, 255" clicking="55, 55, 55, 255" selected="60, 60, 60, 255" contour="190, 190, 190, 255" font_color="200, 200, 200, 255" corner_radius="0"/>
+				<img_path/>
+				<label>Snare</label>
+				<flags/>
+				<msg>bing</msg>
+				<pyo>OnSnare</pyo>
+				<unique_name>snare_btn</unique_name>
+			</Widget>
+			<Widget builder="Button">
+				<position>143, 9</position>
+				<size>60, 59</size>
+				<info normal="60, 60, 60, 255" hover="65, 65, 65, 255" clicking="55, 55, 55, 255" selected="60, 60, 60, 255" contour="190, 190, 190, 255" font_color="200, 200, 200, 255" corner_radius="0"/>
+				<img_path/>
+				<label>HiHat</label>
+				<flags/>
+				<msg>bing</msg>
+				<pyo>OnHihat</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>210, 9</position>
+				<size>60, 59</size>
+				<info normal="60, 60, 60, 255" hover="65, 65, 65, 255" clicking="55, 55, 55, 255" selected="60, 60, 60, 255" contour="190, 190, 190, 255" font_color="200, 200, 200, 255" corner_radius="0"/>
+				<img_path/>
+				<label>OpenHat</label>
+				<flags/>
+				<msg>bing</msg>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Slider">
+				<position>13, 75</position>
+				<size>12, 117</size>
+				<info img_path="widget_resources/sliderPlain.png" btn_size="12, 12" slider_width="4" contour_round_radius="0" bgColorNormal="255, 255, 255, 30" bgColorHover="250, 250, 250, 78" bgColorClicked="250, 250, 250, 62" sliderColorNormal="250, 172, 0, 255" sliderColorHover="250, 177, 0, 255" sliderColorClicked="245, 172, 0, 255" sliderContourColor="250, 172, 0, 255" contourColor="190, 190, 190, 255" backSliderColor="204, 204, 204, 255" backSliderContourColor="190, 190, 190, 255"/>
+				<value>0.000000</value>
+				<flags>VERTICAL,CLICK_ANYWHERE,RIGHT_ALIGN</flags>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Slider">
+				<position>32, 75</position>
+				<size>12, 117</size>
+				<info img_path="widget_resources/sliderPlain.png" btn_size="12, 12" slider_width="4" contour_round_radius="0" bgColorNormal="255, 255, 255, 30" bgColorHover="250, 250, 250, 78" bgColorClicked="250, 250, 250, 62" sliderColorNormal="250, 172, 0, 255" sliderColorHover="250, 177, 0, 255" sliderColorClicked="245, 172, 0, 255" sliderContourColor="250, 172, 0, 255" contourColor="190, 190, 190, 255" backSliderColor="204, 204, 204, 255" backSliderContourColor="190, 190, 190, 255"/>
+				<value>0.000000</value>
+				<flags>VERTICAL,CLICK_ANYWHERE,RIGHT_ALIGN</flags>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Slider">
+				<position>51, 75</position>
+				<size>12, 117</size>
+				<info img_path="widget_resources/sliderPlain.png" btn_size="12, 12" slider_width="4" contour_round_radius="0" bgColorNormal="255, 255, 255, 30" bgColorHover="250, 250, 250, 78" bgColorClicked="250, 250, 250, 62" sliderColorNormal="250, 172, 0, 255" sliderColorHover="250, 177, 0, 255" sliderColorClicked="245, 172, 0, 255" sliderContourColor="250, 172, 0, 255" contourColor="190, 190, 190, 255" backSliderColor="204, 204, 204, 255" backSliderContourColor="190, 190, 190, 255"/>
+				<value>0.000000</value>
+				<flags>VERTICAL,CLICK_ANYWHERE,RIGHT_ALIGN</flags>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Slider">
+				<position>70, 75</position>
+				<size>12, 117</size>
+				<info img_path="widget_resources/sliderPlain.png" btn_size="12, 12" slider_width="4" contour_round_radius="0" bgColorNormal="255, 255, 255, 30" bgColorHover="250, 250, 250, 78" bgColorClicked="250, 250, 250, 62" sliderColorNormal="250, 172, 0, 255" sliderColorHover="250, 177, 0, 255" sliderColorClicked="245, 172, 0, 255" sliderContourColor="250, 172, 0, 255" contourColor="190, 190, 190, 255" backSliderColor="204, 204, 204, 255" backSliderContourColor="190, 190, 190, 255"/>
+				<value>0.000000</value>
+				<flags>VERTICAL,CLICK_ANYWHERE,RIGHT_ALIGN</flags>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Toggle">
+				<position>85, 71</position>
+				<size>65, 65</size>
+				<info normal="0, 0, 0, 0" hover="0, 0, 0, 0" clicking="0, 0, 0, 0" selected="0, 0, 0, 0" selected_hover="0, 0, 0, 0" selected_clicking="0, 0, 0, 0" selected_font_color="204, 204, 204, 255" selected="0, 0, 0, 0" contour="0, 0, 0, 0" font_color="77, 77, 77, 255" font_size="12" img="widget_resources/switch_toggle.png" single_img="0"/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Toggle">
+				<position>85, 138</position>
+				<size>65, 65</size>
+				<info normal="0, 0, 0, 0" hover="0, 0, 0, 0" clicking="0, 0, 0, 0" selected="0, 0, 0, 0" selected_hover="0, 0, 0, 0" selected_clicking="0, 0, 0, 0" selected_font_color="204, 204, 204, 255" selected="0, 0, 0, 0" contour="0, 0, 0, 0" font_color="77, 77, 77, 255" font_size="12" img="widget_resources/switch_toggle.png" single_img="0"/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Label">
+				<position>88, 138</position>
+				<size>60, 15</size>
+				<info normal="255, 255, 255, 0" contour="255, 255, 255, 0" font_color="0, 0, 0, 184" font_size="12" font_name="fonts/FreeSansBold.ttf" alignement="center"/>
+				<label>Distorsion</label>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Label">
+				<position>89, 70</position>
+				<size>60, 15</size>
+				<info normal="255, 255, 255, 0" contour="255, 255, 255, 0" font_color="0, 0, 0, 184" font_size="12" font_name="fonts/FreeSansBold.ttf" alignement="center"/>
+				<label>Label</label>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Panel" name="Panel">
+				<position>177, 96</position>
+				<size>200, 200</size>
+				<bg_img/>
+				<info background="255, 255, 255, 255" contour="0, 0, 0, 255" round_corner_radius="0"/>
+				<flags>0</flags>
+				<unique_name>second_panel</unique_name>
+			</Widget>
+		</Children>
+		<unique_name>main_panel</unique_name>
+	</Widget>
+</Layout>
+

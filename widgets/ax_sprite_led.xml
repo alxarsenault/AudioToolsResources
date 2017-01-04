@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Widget builder="Sprite" name="Led" label="Sprite" 
+		description="Small led." 
+		size="(9 x 9)" 
+		img="widget_menu_images/edit_sprite_led.png">
+		
+	<size>9, 9</size>
+	<info 
+		img_path="widget_resources/axLED_9x9.png"
+		sprite_size="9, 9"
+		n_sprite="2"> 
+	</info>
+</Widget>

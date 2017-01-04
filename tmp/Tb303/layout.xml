@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Layout script="tmp/Tb303/script.py">
+	<Widget builder="Panel" name="MainWindow">
+		<position>5, 5</position>
+		<size>857, 273</size>
+		<bg_img>widget_resources/tb303.png</bg_img>
+		<info background="255, 255, 255, 255" contour="0, 0, 0, 255" round_corner_radius="0"/>
+		<flags>0</flags>
+		<Children>
+			<Widget builder="Knob">
+				<position>239, 24</position>
+				<size>50, 50</size>
+				<info bgColorNormal="0, 0, 0, 0" bgColorHover="0, 0, 0, 0" bgColorClicked="0, 0, 0, 0" img_path="widget_resources/axKnobTB303_64x64.png" selected_img_path="widget_resources/axKnobTB303_64x64.png" knob_size="64, 64" n_knob="101"/>
+				<msg>bing</msg>
+				<flags>0</flags>
+				<pyo>OnTuning</pyo>
+				<unique_name>tuning_btn</unique_name>
+			</Widget>
+			<Widget builder="Knob">
+				<position>299, 24</position>
+				<size>50, 50</size>
+				<info bgColorNormal="0, 0, 0, 0" bgColorHover="0, 0, 0, 0" bgColorClicked="0, 0, 0, 0" img_path="widget_resources/axKnobTB303_64x64.png" selected_img_path="widget_resources/axKnobTB303_64x64.png" knob_size="64, 64" n_knob="101"/>
+				<msg>bing</msg>
+				<flags>0</flags>
+				<pyo>OnCutoffFreq</pyo>
+				<unique_name>filter_freq_knob</unique_name>
+			</Widget>
+			<Widget builder="Knob">
+				<position>358, 24</position>
+				<size>50, 50</size>
+				<info bgColorNormal="0, 0, 0, 0" bgColorHover="0, 0, 0, 0" bgColorClicked="0, 0, 0, 0" img_path="widget_resources/axKnobTB303_64x64.png" selected_img_path="widget_resources/axKnobTB303_64x64.png" knob_size="64, 64" n_knob="101"/>
+				<msg>bing</msg>
+				<flags>0</flags>
+				<pyo>OnResonance</pyo>
+				<unique_name>filter_res_knob</unique_name>
+			</Widget>
+			<Widget builder="Knob">
+				<position>418, 23</position>
+				<size>50, 50</size>
+				<info bgColorNormal="0, 0, 0, 0" bgColorHover="0, 0, 0, 0" bgColorClicked="0, 0, 0, 0" img_path="widget_resources/axKnobTB303_64x64.png" selected_img_path="widget_resources/axKnobTB303_64x64.png" knob_size="64, 64" n_knob="101"/>
+				<msg>bing</msg>
+				<flags>0</flags>
+				<pyo>OnEnvMod</pyo>
+				<unique_name>env_mod_knob</unique_name>
+			</Widget>
+			<Widget builder="Knob">
+				<position>478, 24</position>
+				<size>50, 50</size>
+				<info bgColorNormal="0, 0, 0, 0" bgColorHover="0, 0, 0, 0" bgColorClicked="0, 0, 0, 0" img_path="widget_resources/axKnobTB303_64x64.png" selected_img_path="widget_resources/axKnobTB303_64x64.png" knob_size="64, 64" n_knob="101"/>
+				<msg>bing</msg>
+				<flags>0</flags>
+				<pyo>OnDecay</pyo>
+				<unique_name>decay_knob</unique_name>
+			</Widget>
+			<Widget builder="Knob">
+				<position>538, 24</position>
+				<size>50, 50</size>
+				<info bgColorNormal="0, 0, 0, 0" bgColorHover="0, 0, 0, 0" bgColorClicked="0, 0, 0, 0" img_path="widget_resources/axKnobTB303_64x64.png" selected_img_path="widget_resources/axKnobTB303_64x64.png" knob_size="64, 64" n_knob="101"/>
+				<msg>bing</msg>
+				<flags>0</flags>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Knob">
+				<position>16, 25</position>
+				<size>50, 50</size>
+				<info bgColorNormal="0, 0, 0, 0" bgColorHover="0, 0, 0, 0" bgColorClicked="0, 0, 0, 0" img_path="widget_resources/axKnobTB303_64x64.png" selected_img_path="widget_resources/axKnobTB303_64x64.png" knob_size="64, 64" n_knob="101"/>
+				<msg>bing</msg>
+				<flags>0</flags>
+				<pyo>OnTempo</pyo>
+				<unique_name>tempo_knob</unique_name>
+			</Widget>
+			<Widget builder="Knob">
+				<position>75, 24</position>
+				<size>50, 50</size>
+				<info bgColorNormal="0, 0, 0, 0" bgColorHover="0, 0, 0, 0" bgColorClicked="0, 0, 0, 0" img_path="widget_resources/axKnobTB303_64x64.png" selected_img_path="widget_resources/axKnobTB303_64x64.png" knob_size="64, 64" n_knob="101"/>
+				<msg>bing</msg>
+				<flags>0</flags>
+				<pyo>OnVolume</pyo>
+				<unique_name>volume_knob</unique_name>
+			</Widget>
+			<Widget builder="Button">
+				<position>231, 114</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>Cs0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>276, 114</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>Ds0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>368, 114</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>Fs0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>414, 114</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>Gs0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>460, 114</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>As0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>207, 171</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>C0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name>btnC0</unique_name>
+			</Widget>
+			<Widget builder="Button">
+				<position>252, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>D0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name>btnD0</unique_name>
+			</Widget>
+			<Widget builder="Button">
+				<position>299, 173</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>E0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>345, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>F0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>392, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>G0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>437, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>A0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>483, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>B0</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>529, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>C1</msg>
+				<pyo>OnNoteButton</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>578, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo>OnOctLowButton</pyo>
+				<unique_name>oct_low_btn</unique_name>
+			</Widget>
+			<Widget builder="Button">
+				<position>623, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo>OnOctHighButton</pyo>
+				<unique_name>oct_high_btn</unique_name>
+			</Widget>
+			<Widget builder="Button">
+				<position>668, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>713, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>775, 122</position>
+				<size>31, 16</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo>OnBack</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>125, 172</position>
+				<size>16, 31</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>707, 107</position>
+				<size>31, 16</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo/>
+				<unique_name>time_mode_btn</unique_name>
+			</Widget>
+			<Widget builder="Button">
+				<position>52, 121</position>
+				<size>31, 16</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>133, 121</position>
+				<size>31, 16</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo/>
+				<unique_name>pitch_mode_btn</unique_name>
+			</Widget>
+			<Widget builder="Button">
+				<position>43, 179</position>
+				<size>46, 27</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo>OnStartStop</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Button">
+				<position>767, 183</position>
+				<size>46, 23</size>
+				<info normal="80, 80, 80, 255" hover="85, 85, 85, 255" clicking="90, 90, 90, 255" selected="80, 80, 80, 255" contour="78, 78, 78, 255" font_color="25, 25, 25, 255" corner_radius="0"/>
+				<img_path/>
+				<label/>
+				<flags/>
+				<msg>bing</msg>
+				<pyo>OnNext</pyo>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>210, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>C0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>255, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>D0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>302, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>E0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>348, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>F0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>395, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>G0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>440, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>A0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>234, 101</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>Cs0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>279, 101</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>Ds0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>371, 101</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>Fs0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>417, 101</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>Gs0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>463, 101</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>As0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>486, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>B0</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>532, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>C1</unique_name>
+			</Widget>
+			<Widget builder="NumberBox">
+				<position>768, 165</position>
+				<size>44, 14</size>
+				<info normal="255, 255, 255, 0" hover="250, 250, 250, 0" clicking="245, 245, 245, 0" selected="200, 200, 200, 0" contour="0, 0, 0, 255" font_color="0, 0, 0, 255" img="" single_img="0"/>
+				<flags>0</flags>
+				<range>1.000000, 16.000000</range>
+				<type>0</type>
+				<pyo>OnBeatNumber</pyo>
+				<unique_name>beat_number</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>581, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>oct_low_led</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>626, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>oct_high_led</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>671, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>716, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name/>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>62, 158</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>play_pause_led</unique_name>
+			</Widget>
+			<Widget builder="Knob">
+				<position>143, 24</position>
+				<size>50, 50</size>
+				<info bgColorNormal="0, 0, 0, 0" bgColorHover="0, 0, 0, 0" bgColorClicked="0, 0, 0, 0" img_path="widget_resources/axKnobTB303_64x64.png" selected_img_path="widget_resources/axKnobTB303_64x64.png" knob_size="64, 64" n_knob="101"/>
+				<msg>bing</msg>
+				<flags>0</flags>
+				<pyo>OnDetune</pyo>
+				<unique_name>saw_tune_knob</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>649, 99</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>time_mode_led</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>144, 101</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>pitch_mode_led</unique_name>
+			</Widget>
+			<Widget builder="Sprite">
+				<position>170, 152</position>
+				<size>9, 9</size>
+				<info img_path="widget_resources/axLED_9x9.png" sprite_size="9, 9" n_sprite="2"/>
+				<unique_name>normal_mode_led</unique_name>
+			</Widget>
+		</Children>
+		<unique_name/>
+	</Widget>
+</Layout>
+

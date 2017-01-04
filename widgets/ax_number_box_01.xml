@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Widget builder="NumberBox" 
+		name="nb"
+		label="NumberBox" 
+		description="Simple number box." 
+		size="(64 x 25)" 
+		img="widget_menu_images/edit_number_box_simple.png">
+
+	<size>64, 25</size>
+
+	<info
+		normal="255, 255, 255"
+		hover="250, 250, 250"
+		clicking="245, 245, 245"
+		selected="200, 200, 200"
+		contour="0, 0, 0"
+		font_color="0, 0, 0"
+		img=""
+		single_img="0"> 
+	</info>
+
+	<label></label>
+
+	<flags>0</flags>
+
+	<range>0.0, 5.0</range>
+	<type>0</type>
+</Widget>
